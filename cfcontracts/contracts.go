@@ -1,4 +1,4 @@
-package charityfusecommon
+package cfcontracts
 
 // IndividualMetaData is metadata for individuals.
 type IndividualMetaData struct {
