@@ -12,6 +12,12 @@ type OrganizationMetadata struct {
 	URL         string `json:"url"`         // The url to use to get more information about the organization.
 }
 
+// EventMetaData is metadata for events.
+type EventMetaData struct {
+	DisplayName string `json:"displayName"` // The display name for the event.
+	URL         string `json:"url"`         // The url to use to get more information about the event.
+}
+
 // Individual represents an individual
 type Individual struct {
 	DisplayName  string `json:"displayName"`  // The display name of the individual
